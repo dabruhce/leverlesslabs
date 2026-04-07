@@ -1,0 +1,35 @@
+id: sf-hadouken-training
+title: "Hadouken Training (QCF+LP)"
+game: sf
+fps: 60
+audioFile: audio/third-strike.mp3
+notes:
+  - { time: 3000, endTime: 3067, lane: 1, label: "QCF+LP 1" }
+  - { time: 3033, endTime: 3100, lane: 1 }
+  - { time: 3033, endTime: 3100, lane: 3 }
+  - { time: 3067, endTime: 3133, lane: 3 }
+  - { time: 3067, endTime: 3133, lane: 4 }
+
+  - { time: 8000, endTime: 8067, lane: 1, label: "QCF+LP 2" }
+  - { time: 8033, endTime: 8100, lane: 1 }
+  - { time: 8033, endTime: 8100, lane: 3 }
+  - { time: 8067, endTime: 8133, lane: 3 }
+  - { time: 8067, endTime: 8133, lane: 4 }
+
+  - { time: 13000, endTime: 13067, lane: 1, label: "QCF+LP 3" }
+  - { time: 13033, endTime: 13100, lane: 1 }
+  - { time: 13033, endTime: 13100, lane: 3 }
+  - { time: 13067, endTime: 13133, lane: 3 }
+  - { time: 13067, endTime: 13133, lane: 4 }
+
+  - { time: 18000, endTime: 18067, lane: 1, label: "QCF+LP 4" }
+  - { time: 18033, endTime: 18100, lane: 1 }
+  - { time: 18033, endTime: 18100, lane: 3 }
+  - { time: 18067, endTime: 18133, lane: 3 }
+  - { time: 18067, endTime: 18133, lane: 4 }
+
+  - { time: 23000, endTime: 23067, lane: 1, label: "QCF+LP 5" }
+  - { time: 23033, endTime: 23100, lane: 1 }
+  - { time: 23033, endTime: 23100, lane: 3 }
+  - { time: 23067, endTime: 23133, lane: 3 }
+  - { time: 23067, endTime: 23133, lane: 4 }

@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf release)",
+      "Bash(npm run:*)",
+      "Bash(npx electron-builder:*)",
+      "Bash(reg query:*)",
+      "Bash(powershell:*)",
+      "Bash(cp 7za.exe 7za-real.exe)",
+      "Bash(rm -rf \"C:/Users/bruce/AppData/Local/electron-builder/Cache/winCodeSign/\"*)",
+      "Read(//c/Users/bruce/AppData/Local/electron-builder/Cache/winCodeSign/**)",
+      "Bash(curl -L -o winCodeSign-2.6.0.7z \"https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z\")",
+      "Bash(D:/repos/leverlesstrainer/node_modules/7zip-bin/win/x64/7za-real.exe x:*)",
+      "Bash(touch \"winCodeSign-2.6.0/darwin/10.12/lib/libcrypto.dylib\" \"winCodeSign-2.6.0/darwin/10.12/lib/libssl.dylib\")",
+      "Bash(mv 7za-real.exe 7za.exe)",
+      "Bash(rm -f 7za.cmd 7za-wrapper.sh)",
+      "Bash(mv 7za.exe 7za-orig.exe)",
+      "Bash(mv 7za-orig.exe 7za.exe)",
+      "Bash(rm 7za.bat)",
+      "Bash(ls -d C:/Users/bruce/AppData/Local/electron-builder/Cache/winCodeSign/*/)",
+      "Bash(ELECTRON_BUILDER_WINDOWS_KITS_PATH=\"C:/Users/bruce/AppData/Local/electron-builder/Cache/winCodeSign/winCodeSign-2.6.0/windows-10\" npm run build)",
+      "Bash(ELECTRON_BUILDER_WINDOWS_KITS_PATH=\"C:/Users/bruce/AppData/Local/electron-builder/Cache/winCodeSign/winCodeSign-2.6.0/windows-10\" npx electron-builder --win nsis)",
+      "Bash(ls:*)",
+      "Bash(gh release:*)",
+      "Bash(cp:*)"
+    ]
+  }
+}

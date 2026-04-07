@@ -1,0 +1,121 @@
+id: tekken-kbd-training
+title: "KBD Training - P1 (b,b, db,b repeat)"
+game: tekken
+fps: 60
+audioFile: audio/kbd-track.mp3
+notes:
+  # Base BPM: ~90 (boom bap). Sections are 2x, 3x, 4x subdivisions.
+  # beat = 667ms
+
+  # === SLOW: 2x (180 BPM) — 333ms cycle, 167ms note spacing ===
+  # Starts on beat 4 (2667ms)
+  # Initial backdash: b, b
+  - { time: 2667, endTime: 2717, lane: 0, label: "KBD Slow" }
+  - { time: 2833, endTime: 2883, lane: 0 }
+
+  # Rep 1: db, b
+  - { time: 3000, endTime: 3050, lane: 0 }
+  - { time: 3000, endTime: 3050, lane: 1 }
+  - { time: 3167, endTime: 3217, lane: 0 }
+
+  # Rep 2: db, b
+  - { time: 3333, endTime: 3383, lane: 0 }
+  - { time: 3333, endTime: 3383, lane: 1 }
+  - { time: 3500, endTime: 3550, lane: 0 }
+
+  # Rep 3: db, b
+  - { time: 3667, endTime: 3717, lane: 0 }
+  - { time: 3667, endTime: 3717, lane: 1 }
+  - { time: 3833, endTime: 3883, lane: 0 }
+
+  # Rep 4: db, b
+  - { time: 4000, endTime: 4050, lane: 0 }
+  - { time: 4000, endTime: 4050, lane: 1 }
+  - { time: 4167, endTime: 4217, lane: 0 }
+
+  # Rep 5: db, b
+  - { time: 4333, endTime: 4383, lane: 0 }
+  - { time: 4333, endTime: 4383, lane: 1 }
+  - { time: 4500, endTime: 4550, lane: 0 }
+
+  # === MEDIUM: 3x (270 BPM) — 222ms cycle, 111ms note spacing ===
+  # Starts on beat 12 (8000ms)
+  # Initial backdash: b, b
+  - { time: 8000, endTime: 8050, lane: 0, label: "KBD Medium" }
+  - { time: 8111, endTime: 8161, lane: 0 }
+
+  # Rep 1: db, b
+  - { time: 8222, endTime: 8272, lane: 0 }
+  - { time: 8222, endTime: 8272, lane: 1 }
+  - { time: 8333, endTime: 8383, lane: 0 }
+
+  # Rep 2: db, b
+  - { time: 8444, endTime: 8494, lane: 0 }
+  - { time: 8444, endTime: 8494, lane: 1 }
+  - { time: 8556, endTime: 8606, lane: 0 }
+
+  # Rep 3: db, b
+  - { time: 8667, endTime: 8717, lane: 0 }
+  - { time: 8667, endTime: 8717, lane: 1 }
+  - { time: 8778, endTime: 8828, lane: 0 }
+
+  # Rep 4: db, b
+  - { time: 8889, endTime: 8939, lane: 0 }
+  - { time: 8889, endTime: 8939, lane: 1 }
+  - { time: 9000, endTime: 9050, lane: 0 }
+
+  # Rep 5: db, b
+  - { time: 9111, endTime: 9161, lane: 0 }
+  - { time: 9111, endTime: 9161, lane: 1 }
+  - { time: 9222, endTime: 9272, lane: 0 }
+
+  # Rep 6: db, b
+  - { time: 9333, endTime: 9383, lane: 0 }
+  - { time: 9333, endTime: 9383, lane: 1 }
+  - { time: 9444, endTime: 9494, lane: 0 }
+
+  # === FAST: 4x (360 BPM) — 167ms cycle, 83ms note spacing ===
+  # Starts on beat 18 (12000ms)
+  # Initial backdash: b, b
+  - { time: 12000, endTime: 12050, lane: 0, label: "KBD Fast" }
+  - { time: 12083, endTime: 12133, lane: 0 }
+
+  # Rep 1: db, b
+  - { time: 12167, endTime: 12217, lane: 0 }
+  - { time: 12167, endTime: 12217, lane: 1 }
+  - { time: 12250, endTime: 12300, lane: 0 }
+
+  # Rep 2: db, b
+  - { time: 12333, endTime: 12383, lane: 0 }
+  - { time: 12333, endTime: 12383, lane: 1 }
+  - { time: 12417, endTime: 12467, lane: 0 }
+
+  # Rep 3: db, b
+  - { time: 12500, endTime: 12550, lane: 0 }
+  - { time: 12500, endTime: 12550, lane: 1 }
+  - { time: 12583, endTime: 12633, lane: 0 }
+
+  # Rep 4: db, b
+  - { time: 12667, endTime: 12717, lane: 0 }
+  - { time: 12667, endTime: 12717, lane: 1 }
+  - { time: 12750, endTime: 12800, lane: 0 }
+
+  # Rep 5: db, b
+  - { time: 12833, endTime: 12883, lane: 0 }
+  - { time: 12833, endTime: 12883, lane: 1 }
+  - { time: 12917, endTime: 12967, lane: 0 }
+
+  # Rep 6: db, b
+  - { time: 13000, endTime: 13050, lane: 0 }
+  - { time: 13000, endTime: 13050, lane: 1 }
+  - { time: 13083, endTime: 13133, lane: 0 }
+
+  # Rep 7: db, b
+  - { time: 13167, endTime: 13217, lane: 0 }
+  - { time: 13167, endTime: 13217, lane: 1 }
+  - { time: 13250, endTime: 13300, lane: 0 }
+
+  # Rep 8: db, b
+  - { time: 13333, endTime: 13383, lane: 0 }
+  - { time: 13333, endTime: 13383, lane: 1 }
+  - { time: 13417, endTime: 13467, lane: 0 }

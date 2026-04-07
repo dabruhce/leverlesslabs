@@ -1,0 +1,35 @@
+id: sf-shoryuken-training
+title: "Shoryuken Training (DP+HP)"
+game: sf
+fps: 60
+audioFile: audio/third-strike.mp3
+notes:
+  - { time: 3000, endTime: 3067, lane: 3, label: "DP+HP 1" }
+  - { time: 3033, endTime: 3100, lane: 1 }
+  - { time: 3067, endTime: 3117, lane: 1 }
+  - { time: 3067, endTime: 3117, lane: 3 }
+  - { time: 3067, endTime: 3117, lane: 6 }
+
+  - { time: 8000, endTime: 8067, lane: 3, label: "DP+HP 2" }
+  - { time: 8033, endTime: 8100, lane: 1 }
+  - { time: 8067, endTime: 8117, lane: 1 }
+  - { time: 8067, endTime: 8117, lane: 3 }
+  - { time: 8067, endTime: 8117, lane: 6 }
+
+  - { time: 13000, endTime: 13067, lane: 3, label: "DP+HP 3" }
+  - { time: 13033, endTime: 13100, lane: 1 }
+  - { time: 13067, endTime: 13117, lane: 1 }
+  - { time: 13067, endTime: 13117, lane: 3 }
+  - { time: 13067, endTime: 13117, lane: 6 }
+
+  - { time: 18000, endTime: 18067, lane: 3, label: "DP+HP 4" }
+  - { time: 18033, endTime: 18100, lane: 1 }
+  - { time: 18067, endTime: 18117, lane: 1 }
+  - { time: 18067, endTime: 18117, lane: 3 }
+  - { time: 18067, endTime: 18117, lane: 6 }
+
+  - { time: 23000, endTime: 23067, lane: 3, label: "DP+HP 5" }
+  - { time: 23033, endTime: 23100, lane: 1 }
+  - { time: 23067, endTime: 23117, lane: 1 }
+  - { time: 23067, endTime: 23117, lane: 3 }
+  - { time: 23067, endTime: 23117, lane: 6 }

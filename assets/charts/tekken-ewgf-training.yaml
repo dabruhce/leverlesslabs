@@ -1,0 +1,11 @@
+id: tekken-ewgf-training
+title: "EWGF Training (f, d, df+2)"
+game: tekken
+fps: 60
+audioFile: audio/electric-wind.mp3
+notes:
+  - { time: 3000, endTime: 3050, lane: 3, label: EWGF }
+  - { time: 3050, endTime: 3100, lane: 1 }
+  - { time: 3100, endTime: 3117, lane: 1, justFrame: true }
+  - { time: 3100, endTime: 3117, lane: 3, justFrame: true }
+  - { time: 3100, endTime: 3117, lane: 5, justFrame: true }
