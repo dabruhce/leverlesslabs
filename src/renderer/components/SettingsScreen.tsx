@@ -51,6 +51,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
   const [gpListening, setGpListening] = useState<string | null>(null); // which input we're mapping
   const [gpPressedButtons, setGpPressedButtons] = useState<Set<number>>(new Set());
   const gpPollRef = useRef<number>(0);
+  const gpPrevPressedRef = useRef<Set<number>>(new Set());
 
   const game = GameRegistry.getGame(selectedGame);
 
@@ -164,9 +165,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         });
         setGpPressedButtons(pressed);
 
-        // If we're mapping a button, capture the first new press
+        // If we're mapping a button, capture the first NEW press (not already held)
         if (gpListening) {
           for (const idx of pressed) {
+            if (gpPrevPressedRef.current.has(idx)) continue; // was already held
             // Assign this button index to the input we're mapping
             setLocalGamepadMap(prev => {
               const next = { ...prev };
@@ -181,6 +183,8 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             break;
           }
         }
+
+        gpPrevPressedRef.current = pressed;
 
         if (!connectedGamepad) {
           setConnectedGamepad({ name: gp.id, index: gp.index, buttons: gp.buttons.length });

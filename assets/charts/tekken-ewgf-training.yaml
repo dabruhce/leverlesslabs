@@ -4,8 +4,37 @@ game: tekken
 fps: 60
 audioFile: audio/electric-wind.mp3
 notes:
-  - { time: 3000, endTime: 3050, lane: 3, label: EWGF }
-  - { time: 3050, endTime: 3100, lane: 1 }
-  - { time: 3100, endTime: 3117, lane: 1, justFrame: true }
-  - { time: 3100, endTime: 3117, lane: 3, justFrame: true }
-  - { time: 3100, endTime: 3117, lane: 5, justFrame: true }
+  # EWGF 1 — f, d, df+2 (just frame)
+  - { time: 2000, endTime: 2167, lane: 3, label: EWGF }    # f (10 frames)
+  - { time: 2167, endTime: 2333, lane: 1 }                   # d (10 frames)
+  - { time: 2333, endTime: 2500, lane: 1, justFrame: true }  # df — d held
+  - { time: 2333, endTime: 2500, lane: 3, justFrame: true }  # df — f pressed
+  - { time: 2333, endTime: 2500, lane: 5, justFrame: true }  # df+2 — 2 pressed
+
+  # EWGF 2
+  - { time: 4000, endTime: 4167, lane: 3, label: EWGF }
+  - { time: 4167, endTime: 4333, lane: 1 }
+  - { time: 4333, endTime: 4500, lane: 1, justFrame: true }
+  - { time: 4333, endTime: 4500, lane: 3, justFrame: true }
+  - { time: 4333, endTime: 4500, lane: 5, justFrame: true }
+
+  # EWGF 3
+  - { time: 6000, endTime: 6167, lane: 3, label: EWGF }
+  - { time: 6167, endTime: 6333, lane: 1 }
+  - { time: 6333, endTime: 6500, lane: 1, justFrame: true }
+  - { time: 6333, endTime: 6500, lane: 3, justFrame: true }
+  - { time: 6333, endTime: 6500, lane: 5, justFrame: true }
+
+  # EWGF 4
+  - { time: 8000, endTime: 8167, lane: 3, label: EWGF }
+  - { time: 8167, endTime: 8333, lane: 1 }
+  - { time: 8333, endTime: 8500, lane: 1, justFrame: true }
+  - { time: 8333, endTime: 8500, lane: 3, justFrame: true }
+  - { time: 8333, endTime: 8500, lane: 5, justFrame: true }
+
+  # EWGF 5
+  - { time: 10000, endTime: 10167, lane: 3, label: EWGF }
+  - { time: 10167, endTime: 10333, lane: 1 }
+  - { time: 10333, endTime: 10500, lane: 1, justFrame: true }
+  - { time: 10333, endTime: 10500, lane: 3, justFrame: true }
+  - { time: 10333, endTime: 10500, lane: 5, justFrame: true }
