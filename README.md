@@ -2,6 +2,8 @@
 
 A desktop training app for fighting game motion inputs. Practice execution timing on leverless controllers (hitbox-style), keyboard, or gamepad with a scrolling note chart, frame-accurate grading, and session analytics.
 
+https://dabruhce.github.io/leverlesslabs/
+
 Built with Electron + React + TypeScript.
 
 ## Features
